@@ -101,7 +101,6 @@ $$
 \frac{n!}{k!(n-k)!} = \binom{n}{k}
 $$
 
-
 ---
 
 <!-- コードブロック -->
@@ -112,3 +111,86 @@ def hello_world():
     print("Hello, Marp!")
 
 hello_world()
+```
+
+---
+
+<!-- 自動スケーリング -->
+# 7. 自動スケーリング
+
+<!-- 
+  注: 一部のテーマでのみ動作します。
+  長いコードブロックや数式が自動的に縮小されます。
+-->
+
+```python
+def very_long_function_name_that_demonstrates_auto_scaling(param1, param2, param3, param4, param5):
+    result = param1 + param2 + param3 + param4 + param5
+    return result * 2
+```
+
+---
+
+<!-- テーマとスタイリング -->
+# 8. テーマとスタイリング
+
+<style scoped>
+h2 {
+  color: #ff0000;
+}
+</style>
+
+## この見出しは赤色です
+
+通常の本文テキスト
+
+---
+
+<!-- フィット機能 -->
+# <!--fit--> フィット機能のデモ
+
+---
+
+<!-- スピーカーノート -->
+# スピーカーノート
+
+このスライドにはノートがあります。
+
+<!-- 
+これはスピーカーノートです。
+プレゼンテーションモードで表示されます。
+-->
+
+---
+
+<!-- まとめ -->
+# まとめ
+
+- Marpは多様な機能を提供
+- Markdownの簡潔さとプレゼンテーションの視覚的魅力を組み合わせる
+- カスタマイズ性が高く、様々なニーズに対応可能
+
+```
+
+このプレゼンテーション例では、以下のMarpの主要機能を紹介しています：
+
+1. 基本的なMarkdown書式
+2. 画像の挿入と操作
+3. 背景画像の使用
+4. リストとテーブルの作成
+5. 数式の表示
+6. コードブロックの挿入
+7. 自動スケーリング機能
+8. テーマとカスタムCSSによるスタイリング
+9. フィット機能によるテキストサイズの自動調整
+10. スピーカーノートの追加
+
+これらの例を参考に、Marpの機能を活用してプレゼンテーションを作成できます。必要に応じて、各スライドをカスタマイズしたり、内容を追加したりして、より充実したプレゼンテーションを作成してください。
+
+Citations:
+[1] https://gist.github.com/yhatt/a7d33a306a87ff634df7bb96aab058b5
+[2] https://speakerdeck.com/yhatt/marp-basic-example
+[3] https://qiita.com/tomoasleep/items/604107787d92dec4868e
+[4] https://dev.to/andyhaskell/write-your-tech-talk-slides-rapidly-with-marp-2c7g
+[5] https://qiita.com/e99h2121/items/79db6b7375ccbf3d3977
+[6] https://zenn.dev/oyashiro846/articles/0deab8230432a5
