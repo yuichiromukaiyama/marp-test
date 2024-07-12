@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "npx ": "^3.4.0"
+  },
+  "scripts": {
+    "start": "marp -p test.md",
+    "build:pptx": "marp -o ./test.pptx test.md --pptx",
+    "build:pdf": "marp -o ./test.pdf test.md --pdf"
+  }
+}
